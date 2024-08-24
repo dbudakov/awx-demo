@@ -1,6 +1,6 @@
-- name: Hello World Sample
+- name: Check vars
   hosts: all
   tasks:
-    - name: Hello Message
+    - name: Show [custom_vars] variables
       debug:
-        var: one
+        var: custom_vars
