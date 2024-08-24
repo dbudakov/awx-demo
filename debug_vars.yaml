@@ -3,4 +3,4 @@
   tasks:
     - name: Hello Message
       debug:
-        var: hostvars[inventory_hostname]
+        var: one
