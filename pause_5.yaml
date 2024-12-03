@@ -1,5 +1,6 @@
 - name: Check vars
   hosts: all
+  gather_facts: false
   tasks:
     - name: Pause for 5 minutes to build app cache
       ansible.builtin.pause:
